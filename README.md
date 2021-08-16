@@ -35,6 +35,7 @@ Argh! This got really tiring really soon. Hence the following solution.
     #the following commands can be run as sudo without giving password
     user_name ALL=(root) NOPASSWD: /bin/hddoff
     ```
+    Replace user_name with your Username.
 5. Save and exit. Now open the respective Shortcut Keys Application on your distro. Add a new shortcut and pass the following command to your preferred shortcut:
     `sudo hddoff'
 
