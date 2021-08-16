@@ -27,7 +27,7 @@ Argh! This got really tiring really soon. Hence the following solution.
 
 1. Save the hddoff file in the /bin directory
 2. Give it executable permission through the terminal using:
-    `sudo chmod 755 brightness_control`
+    `sudo chmod 755 hddoff`
 3. Now open the sudoers file to make the file execute without having to need sudo every time you use it:
     `sudo visudo /etc/sudoers`
 4. Add the following lines at the end of the sudoers file (Yes! The comment line too.Trust me, it will serve as a reference later.):
