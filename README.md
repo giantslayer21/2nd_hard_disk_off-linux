@@ -37,7 +37,6 @@ Argh! This got really tiring really soon. Hence the following solution.
     ```
 5. Save and exit. Now open the respective Shortcut Keys Application on your distro. Add a new shortcut and pass the following command to your preferred shortcut:
     `sudo hddoff'
-    Here's what I did. I just replaced the existing keys' associated commands with appropriate command from above
 
 Note: This script should run on any debian based linux machine. Though I'm sure there are other command line tools to achieve the same.
 The command can be used directly from the terminal too as `sudo hddoff`.It works the same way.
