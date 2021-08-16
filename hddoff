@@ -1,2 +1,4 @@
 #!/bin/bash
 udisksctl power-off -b /dev/sda
+#run lsblk to know the drive ID which you want to power off
+#replace sda with whichever ID you would like to turn off. Eg: sda,sdb,sdc,etc
